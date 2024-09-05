@@ -1,0 +1,22 @@
+2024-07-08 13:16:12.361 [info] Started initializing default profile extensions in extensions installation folder. file:///home/hgoo2825/.vscode/extensions
+2024-07-08 13:16:12.440 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/hgoo2825/.vscode/extensions
+2024-07-08 13:16:12.535 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hgoo2825/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hgoo2825/.vscode/extensions/extensions.json.vsctmp'
+    at h.create (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)
+2024-07-08 13:18:03.695 [info] Getting Manifest... ms-vscode.makefile-tools
+2024-07-08 13:18:03.712 [info] Installing extension: ms-vscode.makefile-tools {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/hgoo2825/.vscode/extensions/extensions.json","path":"/home/hgoo2825/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.0","date":"2024-07-01T18:52:41.959Z"}}
+2024-07-08 13:18:06.485 [info] Extension signature verification result for ms-vscode.makefile-tools: Success. Executed: true. Duration: 1977ms.
+2024-07-08 13:18:06.639 [info] Extracted extension to file:///home/hgoo2825/.vscode/extensions/ms-vscode.makefile-tools-0.9.10: ms-vscode.makefile-tools
+2024-07-08 13:18:06.649 [info] Renamed to /home/hgoo2825/.vscode/extensions/ms-vscode.makefile-tools-0.9.10
+2024-07-08 13:18:06.678 [info] Extension installed successfully: ms-vscode.makefile-tools vscode-userdata:/home/hgoo2825/.vscode/extensions/extensions.json
+2024-07-08 13:18:06.687 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hgoo2825/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hgoo2825/.vscode/extensions/extensions.json.vsctmp'
+    at h.create (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/snap/code/163/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)

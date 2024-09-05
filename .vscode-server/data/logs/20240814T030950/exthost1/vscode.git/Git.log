@@ -1,0 +1,1260 @@
+2024-08-14 03:09:52.522 [info] [main] Log level: Info
+2024-08-14 03:09:52.522 [info] [main] Validating found git in: "git"
+2024-08-14 03:09:52.522 [info] [main] Using git "2.17.1" from "git"
+2024-08-14 03:09:52.522 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-14 03:09:52.522 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-14 03:09:52.522 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-14 03:09:52.522 [info] [Model][openRepository] Opened repository: /home/hgoo2825/workspace/FreeRTOS-Study
+2024-08-14 03:09:52.542 [info] > git config --get commit.template [23ms]
+2024-08-14 03:09:52.544 [info] > git rev-parse --show-toplevel [23ms]
+2024-08-14 03:09:52.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 03:09:52.549 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:09:52.549 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:52.555 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-14 03:09:52.559 [info] [Model][openRepository] Opened repository: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+2024-08-14 03:09:52.572 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-14 03:09:52.575 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-14 03:09:52.575 [info] > git config --get commit.template [8ms]
+2024-08-14 03:09:52.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-14 03:09:52.606 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS/.git/refs/remotes/origin/main'
+2024-08-14 03:09:52.607 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-14 03:09:52.650 [info] > git status -z -uall [86ms]
+2024-08-14 03:09:52.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-08-14 03:09:52.661 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:09:52.666 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-08-14 03:09:52.676 [info] > git config --get commit.template [15ms]
+2024-08-14 03:09:52.690 [info] > git status -z -uall [81ms]
+2024-08-14 03:09:52.690 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [16ms]
+2024-08-14 03:09:52.690 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:09:52.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-08-14 03:09:52.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2024-08-14 03:09:52.718 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:09:52.719 [info] > git merge-base refs/heads/master refs/remotes/origin/master [22ms]
+2024-08-14 03:09:52.723 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-08-14 03:09:52.725 [info] > git config --get commit.template [10ms]
+2024-08-14 03:09:52.726 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [6ms]
+2024-08-14 03:09:52.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2024-08-14 03:09:52.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-08-14 03:09:52.745 [info] > git diff --name-status -z --diff-filter=ADMR 0b37fb94f0995406d428131c0b44e1aea486998c...refs/remotes/origin/master [14ms]
+2024-08-14 03:09:52.752 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS/.git/refs/remotes/origin/main'
+2024-08-14 03:09:52.754 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-08-14 03:09:52.758 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-08-14 03:09:52.761 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [4ms]
+2024-08-14 03:09:52.764 [info] > git diff --name-status -z --diff-filter=ADMR 82099c32a0d5960685c79033edde8f381c2f73ea...refs/remotes/origin/main [1ms]
+2024-08-14 03:09:52.789 [info] > git status -z -uall [46ms]
+2024-08-14 03:09:52.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 03:09:52.796 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:09:52.799 [info] > git status -z -uall [39ms]
+2024-08-14 03:09:52.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-14 03:09:52.807 [info] > git config --local branch.master.vscode-merge-base [8ms]
+2024-08-14 03:09:52.810 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-08-14 03:09:52.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2024-08-14 03:09:52.814 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:09:52.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-14 03:09:53.215 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.217 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.219 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.224 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.226 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 03:09:53.230 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.232 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.235 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.238 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 03:09:53.240 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 03:10:39.379 [info] > git show --textconv :main.c [2ms]
+2024-08-14 03:10:39.380 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 03:10:39.382 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 03:10:39.646 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-14 03:10:42.066 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2024-08-14 03:10:42.067 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 03:10:42.140 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 0b37fb94f0995406d428131c0b44e1aea486998c.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [3ms]
+2024-08-14 03:10:42.141 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 0b37fb94f0995406d428131c0b44e1aea486998c [7ms]
+2024-08-14 03:10:42.142 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [3ms]
+2024-08-14 03:10:42.142 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [5ms]
+2024-08-14 03:10:42.249 [info] > git merge-base refs/heads/master refs/remotes/origin/master [6ms]
+2024-08-14 03:10:42.308 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 0b37fb94f0995406d428131c0b44e1aea486998c.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [2ms]
+2024-08-14 03:10:42.308 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 0b37fb94f0995406d428131c0b44e1aea486998c [4ms]
+2024-08-14 03:10:42.364 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 03:10:42.416 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 03:10:42.416 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 03:11:07.551 [info] > git diff --name-status -z --diff-filter=ADMR 81b03c6f10af13c9d4380de1c84ba930239b494c...c0c70fde8a1d2d0d90629f56e34165749e5571bd [16ms]
+2024-08-14 03:11:07.605 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [31ms]
+2024-08-14 03:11:07.605 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [29ms]
+2024-08-14 03:11:07.605 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/settings.json [27ms]
+2024-08-14 03:11:07.605 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/settings.json [26ms]
+2024-08-14 03:11:07.605 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/tasks.json [24ms]
+2024-08-14 03:11:07.605 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/tasks.json [22ms]
+2024-08-14 03:11:07.606 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/tasks.json [8ms]
+2024-08-14 03:11:07.607 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/tasks.json [11ms]
+2024-08-14 03:11:07.607 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/settings.json [14ms]
+2024-08-14 03:11:07.607 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/settings.json [17ms]
+2024-08-14 03:11:07.608 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [19ms]
+2024-08-14 03:11:07.608 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [21ms]
+2024-08-14 03:11:08.110 [info] > git check-ignore -v -z --stdin [5ms]
+2024-08-14 03:11:08.886 [info] > git diff --name-status -z --diff-filter=ADMR 81b03c6f10af13c9d4380de1c84ba930239b494c...c0c70fde8a1d2d0d90629f56e34165749e5571bd [2ms]
+2024-08-14 03:11:09.781 [info] > git diff --name-status -z --diff-filter=ADMR 81b03c6f10af13c9d4380de1c84ba930239b494c...c0c70fde8a1d2d0d90629f56e34165749e5571bd [4ms]
+2024-08-14 03:11:12.535 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [0ms]
+2024-08-14 03:11:12.536 [info] > git show --textconv :main.c [4ms]
+2024-08-14 03:11:12.537 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 03:11:18.564 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 03:11:18.565 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 03:11:29.752 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 03:11:29.753 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [1ms]
+2024-08-14 03:11:33.045 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 03:11:33.046 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 03:11:33.236 [info] > git diff --name-status -z --diff-filter=ADMR 1f070194497125b8168c9023970d4028760a896c...81b03c6f10af13c9d4380de1c84ba930239b494c [3ms]
+2024-08-14 03:11:33.296 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c: [20ms]
+2024-08-14 03:11:33.296 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c: [19ms]
+2024-08-14 03:11:33.296 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [18ms]
+2024-08-14 03:11:33.296 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [16ms]
+2024-08-14 03:11:33.296 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:console.h [15ms]
+2024-08-14 03:11:33.296 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:console.h [14ms]
+2024-08-14 03:11:33.296 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/console.h [2ms]
+2024-08-14 03:11:33.296 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/console.h [3ms]
+2024-08-14 03:11:33.296 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [6ms]
+2024-08-14 03:11:33.296 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [8ms]
+2024-08-14 03:11:33.297 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS [11ms]
+2024-08-14 03:11:33.297 [info] fatal: not a tree object
+2024-08-14 03:11:33.297 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS [13ms]
+2024-08-14 03:11:33.297 [info] fatal: not a tree object
+2024-08-14 03:11:33.799 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-14 03:11:35.570 [info] > git diff --name-status -z --diff-filter=ADMR 81b03c6f10af13c9d4380de1c84ba930239b494c...c0c70fde8a1d2d0d90629f56e34165749e5571bd [1ms]
+2024-08-14 03:11:35.604 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [20ms]
+2024-08-14 03:11:35.604 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [19ms]
+2024-08-14 03:11:35.604 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/settings.json [14ms]
+2024-08-14 03:11:35.604 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/settings.json [13ms]
+2024-08-14 03:11:35.604 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/tasks.json [11ms]
+2024-08-14 03:11:35.604 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/tasks.json [10ms]
+2024-08-14 03:11:35.604 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/tasks.json [2ms]
+2024-08-14 03:11:35.605 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/settings.json [5ms]
+2024-08-14 03:11:35.605 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/settings.json [6ms]
+2024-08-14 03:11:35.605 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:11:35.605 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:11:35.607 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/tasks.json [4ms]
+2024-08-14 03:11:38.730 [info] > git show --textconv :main.c [1ms]
+2024-08-14 03:11:38.731 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [2ms]
+2024-08-14 03:11:38.733 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 03:11:44.774 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:11:44.774 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:11:44.774 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:11:44.775 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:11:50.054 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-08-14 03:11:50.059 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2024-08-14 03:11:50.069 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 0b37fb94f0995406d428131c0b44e1aea486998c [6ms]
+2024-08-14 03:11:50.070 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 0b37fb94f0995406d428131c0b44e1aea486998c.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [5ms]
+2024-08-14 03:11:50.113 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [45ms]
+2024-08-14 03:11:50.114 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [48ms]
+2024-08-14 03:11:55.744 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:11:55.796 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 0b37fb94f0995406d428131c0b44e1aea486998c [3ms]
+2024-08-14 03:11:55.796 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 0b37fb94f0995406d428131c0b44e1aea486998c.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:11:55.807 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 03:11:55.856 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [2ms]
+2024-08-14 03:11:55.858 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 03:12:00.800 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-08-14 03:12:48.955 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:12:48.956 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:12:48.956 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:12:48.956 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:13:04.418 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:13:04.418 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:13:04.418 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:13:04.419 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:13:32.091 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:13:32.091 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:13:32.091 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:13:32.093 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:14:20.876 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:14:20.876 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:14:20.877 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:14:20.878 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:16:00.204 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:16:00.204 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:16:00.205 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:16:00.206 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:16:00.268 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-08-14 03:16:00.268 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 03:16:00.328 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 0b37fb94f0995406d428131c0b44e1aea486998c.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [3ms]
+2024-08-14 03:16:00.329 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 0b37fb94f0995406d428131c0b44e1aea486998c [5ms]
+2024-08-14 03:16:00.329 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 03:16:00.329 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 03:16:21.333 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:16:21.334 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:16:21.334 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:16:21.334 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:16:31.740 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:16:31.740 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:16:31.740 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:16:31.741 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:18:57.549 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:18:57.549 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:18:57.549 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:18:57.550 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:19:21.906 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:19:21.907 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:19:21.907 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:19:21.907 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:19:49.605 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:19:49.605 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:19:49.605 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:19:49.606 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:20:02.376 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:20:02.377 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:20:02.377 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:20:02.377 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:20:16.813 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:20:16.813 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:20:16.814 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:20:16.815 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:21:00.185 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:21:00.186 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:21:00.186 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:21:00.187 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:22:07.021 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:22:07.022 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:22:07.022 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [12ms]
+2024-08-14 03:22:07.024 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:23:00.098 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:23:00.099 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:23:00.099 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:23:00.099 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:23:55.011 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:23:55.012 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:23:55.012 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:23:55.012 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:31:50.085 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:31:50.085 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:31:50.085 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:31:50.086 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:32:11.325 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [0ms]
+2024-08-14 03:32:11.325 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:32:11.325 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:32:11.325 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:32:32.653 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:32:32.654 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:32:32.654 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:32:32.655 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:33:39.010 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:33:39.011 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:33:39.011 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:33:39.012 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:34:07.294 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:34:07.294 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:34:07.295 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:34:07.295 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:34:32.294 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:34:32.295 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:34:32.295 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:34:32.295 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:35:18.009 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:35:18.009 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:35:18.010 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:35:18.010 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:35:40.683 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:35:40.684 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:35:40.684 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:35:40.684 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:37:27.781 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:37:27.781 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:37:27.782 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 03:37:27.782 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:37:47.998 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:37:47.999 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:37:47.999 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:37:47.999 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:42:17.360 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:42:17.361 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:42:17.361 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:42:17.361 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:43:13.771 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:43:13.771 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:43:13.771 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:43:13.772 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:43:20.400 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 03:43:20.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:43:20.401 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:43:20.401 [info] > git config --get commit.template [4ms]
+2024-08-14 03:43:20.465 [info] > git status -z -uall [61ms]
+2024-08-14 03:43:20.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 03:43:20.469 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:43:20.471 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:43:20.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:43:20.473 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:43:20.473 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 03:43:20.476 [info] > git reflog master --grep-reflog=branch: Created from *. [2ms]
+2024-08-14 03:43:20.479 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 03:43:20.479 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 03:43:20.546 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 03:43:20.548 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 03:43:20.552 [info] > git show --textconv :main.c [1ms]
+2024-08-14 03:43:42.306 [info] > git config --get commit.template [2ms]
+2024-08-14 03:43:42.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 03:43:42.306 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:43:42.335 [info] > git status -z -uall [27ms]
+2024-08-14 03:43:42.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:43:42.338 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:43:42.340 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:43:42.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:43:42.342 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:43:42.342 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 03:43:42.344 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 03:43:42.345 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 03:43:42.346 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 03:43:42.408 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 03:43:42.410 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 03:43:42.415 [info] > git show --textconv :main.c [1ms]
+2024-08-14 03:44:41.915 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:44:41.916 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:44:41.916 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:44:41.916 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:44:41.928 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [5ms]
+2024-08-14 03:44:41.928 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [3ms]
+2024-08-14 03:44:41.929 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [3ms]
+2024-08-14 03:44:41.929 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [1ms]
+2024-08-14 03:44:42.063 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [1ms]
+2024-08-14 03:44:42.117 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 1f070194497125b8168c9023970d4028760a896c [3ms]
+2024-08-14 03:44:42.119 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 1f070194497125b8168c9023970d4028760a896c.. --topo-order --decorate=full refs/heads/master [2ms]
+2024-08-14 03:44:42.175 [info] > git merge-base refs/heads/main refs/remotes/origin/main [0ms]
+2024-08-14 03:44:42.227 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 03:44:42.229 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 03:45:11.695 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:45:11.695 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:45:11.695 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:45:11.696 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:45:34.311 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:45:34.312 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:45:34.312 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:45:34.313 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:45:36.908 [info] > git config --get commit.template [1ms]
+2024-08-14 03:45:36.910 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 03:45:36.910 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:45:36.945 [info] > git status -z -uall [33ms]
+2024-08-14 03:45:36.950 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 03:45:36.950 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:45:36.952 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 03:45:36.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:45:36.955 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:45:41.848 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:45:41.896 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [2ms]
+2024-08-14 03:45:41.896 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [0ms]
+2024-08-14 03:45:56.361 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:45:56.361 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 03:45:56.362 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:45:56.363 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:46:05.961 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:46:05.961 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:46:05.962 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [12ms]
+2024-08-14 03:46:05.962 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:46:56.999 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:46:56.999 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:46:56.999 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:46:56.999 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:47:27.322 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:47:27.322 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:47:27.323 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:47:27.323 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:48:19.165 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:48:19.165 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:48:19.166 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:48:19.166 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:48:23.035 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:48:23.107 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [3ms]
+2024-08-14 03:48:23.107 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [2ms]
+2024-08-14 03:49:07.716 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:49:07.716 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:49:07.717 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:49:07.717 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:49:21.110 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:49:21.110 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:49:21.110 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:49:21.111 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:49:23.708 [info] > git config --get commit.template [2ms]
+2024-08-14 03:49:23.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 03:49:23.708 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:49:23.741 [info] > git status -z -uall [30ms]
+2024-08-14 03:49:23.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:49:23.744 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:49:23.746 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:49:23.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:49:23.748 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:49:56.175 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:49:56.176 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:49:56.176 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:49:56.176 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 03:50:38.801 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:50:38.801 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:50:38.801 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 03:50:38.802 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:50:40.316 [info] > git config --get commit.template [2ms]
+2024-08-14 03:50:40.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:50:40.316 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:50:40.346 [info] > git status -z -uall [28ms]
+2024-08-14 03:50:40.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:50:40.349 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:50:40.351 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:50:40.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:50:40.354 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:50:45.820 [info] > git config --get commit.template [1ms]
+2024-08-14 03:50:45.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 03:50:45.823 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:50:45.852 [info] > git status -z -uall [28ms]
+2024-08-14 03:50:45.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:50:45.856 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:50:45.859 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:50:45.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:50:45.862 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:51:58.128 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:51:58.129 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:51:58.129 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:51:58.129 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:52:02.736 [info] > git config --get commit.template [2ms]
+2024-08-14 03:52:02.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 03:52:02.736 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:52:02.766 [info] > git status -z -uall [27ms]
+2024-08-14 03:52:02.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:52:02.769 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:52:02.771 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:52:02.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:52:02.773 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:52:02.865 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 03:52:02.867 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [0ms]
+2024-08-14 03:52:02.872 [info] > git show --textconv :main.c [1ms]
+2024-08-14 03:52:18.073 [info] > git config --get commit.template [1ms]
+2024-08-14 03:52:18.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 03:52:18.076 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:52:18.104 [info] > git status -z -uall [27ms]
+2024-08-14 03:52:18.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 03:52:18.106 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:52:18.108 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 03:52:18.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 03:52:18.110 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:52:18.175 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 03:52:18.177 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [0ms]
+2024-08-14 03:52:18.182 [info] > git show --textconv :main.c [0ms]
+2024-08-14 03:52:40.447 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:52:40.448 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:52:40.448 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:52:40.448 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 03:52:40.498 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [4ms]
+2024-08-14 03:52:40.498 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [3ms]
+2024-08-14 03:52:40.498 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [1ms]
+2024-08-14 03:52:40.498 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [0ms]
+2024-08-14 03:58:39.692 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 03:58:39.693 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:58:39.693 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 03:58:39.693 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:58:39.802 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:58:39.868 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [3ms]
+2024-08-14 03:58:39.868 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:58:41.961 [info] > git push -u origin master [807ms]
+2024-08-14 03:58:41.961 [info] Everything up-to-date
+2024-08-14 03:58:41.968 [info] > git config --get commit.template [2ms]
+2024-08-14 03:58:41.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 03:58:41.968 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:42.002 [info] > git status -z -uall [32ms]
+2024-08-14 03:58:42.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-08-14 03:58:42.010 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:42.012 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:58:42.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:58:42.014 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:42.018 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:58:42.020 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [1ms]
+2024-08-14 03:58:42.022 [info] > git diff --name-status -z --diff-filter=ADMR c0c70fde8a1d2d0d90629f56e34165749e5571bd...refs/remotes/origin/master [1ms]
+2024-08-14 03:58:42.056 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 03:58:42.063 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [2ms]
+2024-08-14 03:58:42.063 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [0ms]
+2024-08-14 03:58:43.060 [info] > git config --get commit.template [2ms]
+2024-08-14 03:58:43.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:58:43.060 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:43.091 [info] > git status -z -uall [29ms]
+2024-08-14 03:58:43.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:58:43.095 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:43.096 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 03:58:43.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:58:43.099 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:43.188 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 03:58:43.188 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 03:58:43.188 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [5ms]
+2024-08-14 03:58:43.188 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [6ms]
+2024-08-14 03:58:43.188 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 03:58:43.191 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 03:58:43.199 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [6ms]
+2024-08-14 03:58:43.199 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [4ms]
+2024-08-14 03:58:43.199 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [3ms]
+2024-08-14 03:58:43.199 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [2ms]
+2024-08-14 03:58:43.200 [info] > git show --textconv :main.c [1ms]
+2024-08-14 03:58:47.169 [info] > git merge-base refs/heads/main refs/remotes/origin/main [0ms]
+2024-08-14 03:58:47.217 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 03:58:47.218 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 03:58:48.103 [info] > git config --get commit.template [4ms]
+2024-08-14 03:58:48.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:58:48.103 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:48.137 [info] > git status -z -uall [32ms]
+2024-08-14 03:58:48.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 03:58:48.140 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:58:48.142 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 03:58:48.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 03:58:48.144 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 03:59:03.970 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 03:59:03.971 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 03:59:03.971 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 03:59:03.971 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:00:10.390 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 04:00:10.390 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:00:10.391 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 04:00:10.391 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:02:14.859 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:02:14.860 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:02:14.860 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:02:14.860 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:02:17.554 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2024-08-14 04:02:17.554 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:02:17.630 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [4ms]
+2024-08-14 04:02:17.630 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [5ms]
+2024-08-14 04:02:17.630 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [2ms]
+2024-08-14 04:02:17.631 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:02:18.130 [info] > git check-ignore -v -z --stdin [3ms]
+2024-08-14 04:02:18.133 [info] > git check-ignore -v -z --stdin [3ms]
+2024-08-14 04:02:24.945 [info] > git merge-base refs/heads/master refs/remotes/origin/master [0ms]
+2024-08-14 04:02:24.999 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [5ms]
+2024-08-14 04:02:24.999 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [2ms]
+2024-08-14 04:02:25.007 [info] > git merge-base refs/heads/main refs/remotes/origin/main [0ms]
+2024-08-14 04:02:25.014 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 04:02:25.016 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [3ms]
+2024-08-14 04:02:32.148 [info] > git config --get commit.template [2ms]
+2024-08-14 04:02:32.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 04:02:32.148 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:02:32.179 [info] > git status -z -uall [29ms]
+2024-08-14 04:02:32.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 04:02:32.184 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:02:32.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-08-14 04:02:32.187 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:02:32.188 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-08-14 04:02:32.190 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-08-14 04:02:32.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-08-14 04:02:32.192 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:02:32.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:02:32.193 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:02:32.195 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 04:02:32.199 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [2ms]
+2024-08-14 04:02:32.202 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-08-14 04:02:32.202 [info] > git diff --name-status -z --diff-filter=ADMR c0c70fde8a1d2d0d90629f56e34165749e5571bd...refs/remotes/origin/master [1ms]
+2024-08-14 04:02:32.258 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [0ms]
+2024-08-14 04:02:32.258 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [3ms]
+2024-08-14 04:02:36.092 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:02:36.093 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 04:02:36.093 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:02:36.094 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:03:30.110 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:03:30.110 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 04:03:30.111 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 04:03:30.111 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:03:40.646 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:03:40.646 [info] > git config --get commit.template [3ms]
+2024-08-14 04:03:40.646 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:03:40.646 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:40.677 [info] > git status -z -uall [29ms]
+2024-08-14 04:03:40.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 04:03:40.681 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:40.683 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:03:40.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:03:40.685 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:40.685 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:03:40.688 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:03:40.690 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:03:40.690 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:03:40.744 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [1ms]
+2024-08-14 04:03:40.752 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 04:03:40.754 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:03:40.755 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:03:40.755 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [8ms]
+2024-08-14 04:03:40.755 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [9ms]
+2024-08-14 04:03:40.755 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 04:03:40.775 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [13ms]
+2024-08-14 04:03:40.775 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [11ms]
+2024-08-14 04:03:40.775 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [6ms]
+2024-08-14 04:03:40.775 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [2ms]
+2024-08-14 04:03:40.775 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 1f070194497125b8168c9023970d4028760a896c [17ms]
+2024-08-14 04:03:40.776 [info] > git show --textconv :main.c [1ms]
+2024-08-14 04:03:40.777 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 1f070194497125b8168c9023970d4028760a896c.. --topo-order --decorate=full refs/heads/master [17ms]
+2024-08-14 04:03:45.687 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:03:45.687 [info] > git config --get commit.template [2ms]
+2024-08-14 04:03:45.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 04:03:45.687 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:45.716 [info] > git status -z -uall [27ms]
+2024-08-14 04:03:45.720 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:03:45.720 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:45.722 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:03:45.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:03:45.724 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:45.724 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:03:45.727 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2024-08-14 04:03:45.728 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:03:45.728 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:03:55.738 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:03:55.738 [info] > git config --get commit.template [2ms]
+2024-08-14 04:03:55.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:03:55.738 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:55.771 [info] > git status -z -uall [31ms]
+2024-08-14 04:03:55.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:03:55.774 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:55.776 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 04:03:55.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:03:55.778 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:03:55.778 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:03:55.780 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2024-08-14 04:03:55.782 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:03:55.782 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:03:55.847 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 04:03:55.848 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:03:55.848 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [6ms]
+2024-08-14 04:03:55.848 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [7ms]
+2024-08-14 04:03:55.848 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 04:03:55.850 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 04:03:55.859 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [6ms]
+2024-08-14 04:03:55.859 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [4ms]
+2024-08-14 04:03:55.859 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [3ms]
+2024-08-14 04:03:55.859 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [2ms]
+2024-08-14 04:03:55.860 [info] > git show --textconv :main.c [1ms]
+2024-08-14 04:04:00.780 [info] > git config --get commit.template [2ms]
+2024-08-14 04:04:00.782 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:04:00.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:00.783 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:00.815 [info] > git status -z -uall [30ms]
+2024-08-14 04:04:00.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:00.818 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:00.820 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:04:00.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:04:00.823 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:00.823 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:00.825 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2024-08-14 04:04:00.827 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:04:00.827 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:09.837 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:04:09.838 [info] > git config --get commit.template [3ms]
+2024-08-14 04:04:09.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:09.838 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:09.867 [info] > git status -z -uall [28ms]
+2024-08-14 04:04:09.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 04:04:09.870 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:09.872 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:04:09.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:04:09.874 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:09.874 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:09.876 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:04:09.878 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:04:09.878 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:09.951 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [2ms]
+2024-08-14 04:04:09.954 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:04:09.955 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [11ms]
+2024-08-14 04:04:09.955 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [14ms]
+2024-08-14 04:04:09.956 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [16ms]
+2024-08-14 04:04:09.956 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [2ms]
+2024-08-14 04:04:09.975 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [13ms]
+2024-08-14 04:04:09.975 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [10ms]
+2024-08-14 04:04:09.975 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [8ms]
+2024-08-14 04:04:09.975 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [4ms]
+2024-08-14 04:04:09.975 [info] > git show --textconv :main.c [1ms]
+2024-08-14 04:04:14.874 [info] > git config --get commit.template [2ms]
+2024-08-14 04:04:14.875 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:04:14.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:14.875 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:14.904 [info] > git status -z -uall [28ms]
+2024-08-14 04:04:14.907 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:14.907 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:14.909 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:04:14.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 04:04:14.911 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:14.912 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:14.913 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2024-08-14 04:04:14.915 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:04:14.915 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:20.177 [info] > git config --get commit.template [2ms]
+2024-08-14 04:04:20.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:20.178 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:20.208 [info] > git status -z -uall [29ms]
+2024-08-14 04:04:20.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:20.211 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:20.214 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:04:20.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:04:20.216 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:20.216 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:20.218 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:04:20.220 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:04:20.220 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:20.284 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 04:04:20.284 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:04:20.284 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [5ms]
+2024-08-14 04:04:20.284 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [7ms]
+2024-08-14 04:04:20.284 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [2ms]
+2024-08-14 04:04:20.286 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 04:04:20.296 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [6ms]
+2024-08-14 04:04:20.296 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [4ms]
+2024-08-14 04:04:20.296 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [3ms]
+2024-08-14 04:04:20.296 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [2ms]
+2024-08-14 04:04:20.297 [info] > git show --textconv :main.c [1ms]
+2024-08-14 04:04:25.217 [info] > git config --get commit.template [3ms]
+2024-08-14 04:04:25.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:25.217 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:25.250 [info] > git status -z -uall [32ms]
+2024-08-14 04:04:25.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:25.254 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:25.256 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:04:25.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:04:25.258 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:25.258 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:25.260 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:04:25.262 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:04:25.262 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:27.885 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 04:04:27.885 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 04:04:27.885 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [5ms]
+2024-08-14 04:04:27.886 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [7ms]
+2024-08-14 04:04:27.886 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [2ms]
+2024-08-14 04:04:27.888 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [0ms]
+2024-08-14 04:04:27.897 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [5ms]
+2024-08-14 04:04:27.897 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [4ms]
+2024-08-14 04:04:27.897 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [3ms]
+2024-08-14 04:04:27.897 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [1ms]
+2024-08-14 04:04:27.898 [info] > git show --textconv :main.c [1ms]
+2024-08-14 04:04:30.258 [info] > git config --get commit.template [1ms]
+2024-08-14 04:04:30.260 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:04:30.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:30.261 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:30.292 [info] > git status -z -uall [30ms]
+2024-08-14 04:04:30.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:30.296 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:30.298 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:04:30.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:04:30.300 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:30.300 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:30.302 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:04:30.304 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:04:30.304 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:32.991 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 04:04:32.991 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 04:04:32.991 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [5ms]
+2024-08-14 04:04:32.991 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [7ms]
+2024-08-14 04:04:32.991 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 04:04:32.993 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 04:04:33.002 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [5ms]
+2024-08-14 04:04:33.002 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [4ms]
+2024-08-14 04:04:33.002 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [3ms]
+2024-08-14 04:04:33.002 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [2ms]
+2024-08-14 04:04:33.002 [info] > git show --textconv :main.c [0ms]
+2024-08-14 04:04:35.300 [info] > git config --get commit.template [1ms]
+2024-08-14 04:04:35.302 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-14 04:04:35.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:35.302 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:35.332 [info] > git status -z -uall [28ms]
+2024-08-14 04:04:35.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 04:04:35.334 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:35.337 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:04:35.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:04:35.339 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:35.339 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:35.342 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:04:35.344 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:04:35.344 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:39.962 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:04:39.962 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:04:39.963 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [10ms]
+2024-08-14 04:04:39.964 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:04:48.381 [info] > git config --get commit.template [2ms]
+2024-08-14 04:04:48.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 04:04:48.381 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:48.410 [info] > git status -z -uall [27ms]
+2024-08-14 04:04:48.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:04:48.413 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:48.416 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-08-14 04:04:48.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:04:48.418 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:04:48.418 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:04:48.420 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2024-08-14 04:04:48.423 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:04:48.423 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:04:48.530 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 04:04:48.531 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 04:04:48.531 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [6ms]
+2024-08-14 04:04:48.531 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [7ms]
+2024-08-14 04:04:48.531 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [2ms]
+2024-08-14 04:04:48.533 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [0ms]
+2024-08-14 04:04:48.540 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [4ms]
+2024-08-14 04:04:48.540 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [3ms]
+2024-08-14 04:04:48.540 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [1ms]
+2024-08-14 04:04:48.541 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [1ms]
+2024-08-14 04:04:48.545 [info] > git show --textconv :main.c [1ms]
+2024-08-14 04:05:01.979 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 04:05:01.980 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [7ms]
+2024-08-14 04:05:01.980 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 04:05:01.980 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [12ms]
+2024-08-14 04:05:01.982 [info] > git config --get commit.template [3ms]
+2024-08-14 04:05:01.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:05:01.985 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:05:02.020 [info] > git status -z -uall [33ms]
+2024-08-14 04:05:02.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:05:02.024 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:05:02.026 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 04:05:02.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:05:02.029 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:05:02.029 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:05:02.031 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:05:02.033 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:05:02.033 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:05:16.557 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 04:05:16.558 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:05:16.558 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [9ms]
+2024-08-14 04:05:16.558 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:06:54.828 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:06:54.828 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 04:06:54.828 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:06:54.829 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:07:36.186 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:07:36.186 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:07:36.187 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:07:36.187 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:07:43.232 [info] > git config --get commit.template [2ms]
+2024-08-14 04:07:43.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:07:43.233 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:07:43.264 [info] > git status -z -uall [30ms]
+2024-08-14 04:07:43.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:07:43.267 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:07:43.269 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:07:43.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 04:07:43.271 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:07:43.271 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:07:43.273 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2024-08-14 04:07:43.275 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:07:43.275 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:07:43.339 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [1ms]
+2024-08-14 04:07:43.339 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 04:07:43.339 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [5ms]
+2024-08-14 04:07:43.339 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [6ms]
+2024-08-14 04:07:43.339 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 04:07:43.341 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 04:07:43.348 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [4ms]
+2024-08-14 04:07:43.348 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [3ms]
+2024-08-14 04:07:43.348 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [2ms]
+2024-08-14 04:07:43.348 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [1ms]
+2024-08-14 04:07:43.352 [info] > git show --textconv :main.c [1ms]
+2024-08-14 04:08:59.606 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [5ms]
+2024-08-14 04:08:59.607 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [8ms]
+2024-08-14 04:08:59.607 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [11ms]
+2024-08-14 04:08:59.607 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [13ms]
+2024-08-14 04:08:59.608 [info] > git config --get commit.template [4ms]
+2024-08-14 04:08:59.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:08:59.611 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:08:59.646 [info] > git status -z -uall [34ms]
+2024-08-14 04:08:59.650 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:08:59.650 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:08:59.652 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:08:59.655 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:08:59.655 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:08:59.655 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:08:59.659 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:08:59.662 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-08-14 04:08:59.662 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:09:04.654 [info] > git config --get commit.template [0ms]
+2024-08-14 04:09:04.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:09:04.657 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:09:04.688 [info] > git status -z -uall [29ms]
+2024-08-14 04:09:04.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-08-14 04:09:04.692 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:09:04.694 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:09:04.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 04:09:04.697 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:09:04.697 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:09:04.699 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:09:04.701 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:09:04.701 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:09:14.111 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [0ms]
+2024-08-14 04:09:14.111 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:09:14.111 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:09:14.111 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:09:24.687 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:09:24.688 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:09:24.688 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:09:24.688 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:09:40.091 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:09:40.091 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:09:40.092 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 04:09:40.092 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:09:57.325 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:09:57.326 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 04:09:57.326 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:09:57.326 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:11:17.444 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:11:17.445 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:11:17.445 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 04:11:17.445 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:11:29.812 [info] > git config --get commit.template [3ms]
+2024-08-14 04:11:29.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:11:29.812 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:29.844 [info] > git status -z -uall [30ms]
+2024-08-14 04:11:29.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 04:11:29.846 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:29.848 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 04:11:29.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 04:11:29.850 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:29.850 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:11:29.852 [info] > git reflog master --grep-reflog=branch: Created from *. [0ms]
+2024-08-14 04:11:29.854 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:11:29.854 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:11:43.406 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:11:43.406 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 04:11:43.406 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:11:43.406 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:11:44.786 [info] > git config --get commit.template [3ms]
+2024-08-14 04:11:44.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-08-14 04:11:44.787 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:44.816 [info] > git status -z -uall [28ms]
+2024-08-14 04:11:44.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:11:44.819 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:44.821 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:11:44.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 04:11:44.823 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:44.823 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:11:44.825 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:11:44.827 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:11:44.827 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:11:44.892 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [2ms]
+2024-08-14 04:11:44.892 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 04:11:44.892 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [4ms]
+2024-08-14 04:11:44.892 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [6ms]
+2024-08-14 04:11:44.893 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [2ms]
+2024-08-14 04:11:44.895 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [1ms]
+2024-08-14 04:11:44.905 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [7ms]
+2024-08-14 04:11:44.905 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [6ms]
+2024-08-14 04:11:44.905 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [4ms]
+2024-08-14 04:11:44.905 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [2ms]
+2024-08-14 04:11:44.906 [info] > git show --textconv :main.c [0ms]
+2024-08-14 04:11:49.806 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:11:49.806 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 04:11:49.807 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:11:49.808 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:11:49.822 [info] > git config --get commit.template [1ms]
+2024-08-14 04:11:49.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:11:49.825 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:49.855 [info] > git status -z -uall [29ms]
+2024-08-14 04:11:49.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:11:49.858 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:49.860 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:11:49.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 04:11:49.862 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:11:49.863 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:11:49.865 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:11:49.867 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:11:49.867 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:14:46.761 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [6ms]
+2024-08-14 04:14:46.762 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [8ms]
+2024-08-14 04:14:46.762 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [11ms]
+2024-08-14 04:14:46.762 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [13ms]
+2024-08-14 04:14:46.762 [info] > git config --get commit.template [2ms]
+2024-08-14 04:14:46.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:14:46.766 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:14:46.799 [info] > git status -z -uall [31ms]
+2024-08-14 04:14:46.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:14:46.802 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:14:46.805 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:14:46.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:14:46.807 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:14:46.807 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:14:46.809 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:14:46.813 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-14 04:14:46.813 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:15:36.623 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:15:36.623 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [3ms]
+2024-08-14 04:15:36.624 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [6ms]
+2024-08-14 04:15:36.624 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [1ms]
+2024-08-14 04:15:56.327 [info] > git config --get commit.template [1ms]
+2024-08-14 04:15:56.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:15:56.329 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:15:56.357 [info] > git status -z -uall [27ms]
+2024-08-14 04:15:56.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:15:56.360 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:15:56.362 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:15:56.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:15:56.364 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:15:56.364 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:15:56.366 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:15:56.368 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:15:56.368 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:16:10.463 [info] > git config --get commit.template [1ms]
+2024-08-14 04:16:10.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:16:10.466 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:10.496 [info] > git status -z -uall [29ms]
+2024-08-14 04:16:10.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:16:10.499 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:10.501 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 04:16:10.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:16:10.504 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:10.504 [warning] [Git][getBranch] No such branch: origin/master
+2024-08-14 04:16:10.507 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-08-14 04:16:10.509 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-08-14 04:16:10.509 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-08-14 04:16:10.567 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 04:16:10.569 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [0ms]
+2024-08-14 04:16:10.574 [info] > git show --textconv :main.c [0ms]
+2024-08-14 04:16:23.622 [info] > git config --get commit.template [2ms]
+2024-08-14 04:16:23.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:16:23.623 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:23.656 [info] > git status -z -uall [31ms]
+2024-08-14 04:16:23.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-08-14 04:16:23.661 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:23.662 [info] > git config --local branch.master.vscode-merge-base [0ms]
+2024-08-14 04:16:23.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [0ms]
+2024-08-14 04:16:23.664 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:23.666 [info] > git merge-base refs/heads/master refs/remotes/origin/master [0ms]
+2024-08-14 04:16:23.668 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [0ms]
+2024-08-14 04:16:23.671 [info] > git diff --name-status -z --diff-filter=ADMR c0c70fde8a1d2d0d90629f56e34165749e5571bd...refs/remotes/origin/master [1ms]
+2024-08-14 04:16:23.734 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 04:16:23.796 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [2ms]
+2024-08-14 04:16:23.796 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 04:16:24.738 [info] > git config --get commit.template [2ms]
+2024-08-14 04:16:24.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:16:24.739 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:24.770 [info] > git status -z -uall [29ms]
+2024-08-14 04:16:24.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-08-14 04:16:24.773 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:24.775 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-08-14 04:16:24.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-08-14 04:16:24.777 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-08-14 04:16:24.839 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/main.c [1ms]
+2024-08-14 04:16:24.840 [info] > git cat-file -s 43d32100b53fc17d1ae497db64960816dc8ea59e [0ms]
+2024-08-14 04:16:24.845 [info] > git show --textconv :main.c [0ms]
+2024-08-14 04:16:46.586 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:16:46.586 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [4ms]
+2024-08-14 04:16:46.586 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:16:46.587 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:16:46.597 [info] > git show --textconv 1f070194497125b8168c9023970d4028760a896c:Makefile [5ms]
+2024-08-14 04:16:46.597 [info] > git show --textconv c0c70fde8a1d2d0d90629f56e34165749e5571bd:.vscode/launch.json [5ms]
+2024-08-14 04:16:46.597 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:.vscode/launch.json [3ms]
+2024-08-14 04:16:46.597 [info] > git show --textconv 81b03c6f10af13c9d4380de1c84ba930239b494c:Makefile [1ms]
+2024-08-14 04:16:51.618 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:16:51.618 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [5ms]
+2024-08-14 04:16:51.619 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [7ms]
+2024-08-14 04:16:51.619 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:17:19.675 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [5ms]
+2024-08-14 04:17:19.675 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 04:17:19.676 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [11ms]
+2024-08-14 04:17:19.676 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:18:14.138 [info] > git ls-tree -l 1f070194497125b8168c9023970d4028760a896c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [3ms]
+2024-08-14 04:18:14.138 [info] > git ls-tree -l c0c70fde8a1d2d0d90629f56e34165749e5571bd -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [8ms]
+2024-08-14 04:18:14.138 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/.vscode/launch.json [11ms]
+2024-08-14 04:18:14.139 [info] > git ls-tree -l 81b03c6f10af13c9d4380de1c84ba930239b494c -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-08-14 04:18:42.126 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-08-14 04:18:42.128 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-08-14 04:18:42.133 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [2ms]
+2024-08-14 04:18:42.135 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [2ms]
+2024-08-14 04:18:42.148 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [2ms]
+2024-08-14 04:18:42.148 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:18:43.373 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 04:18:43.380 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat c0c70fde8a1d2d0d90629f56e34165749e5571bd.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [1ms]
+2024-08-14 04:18:43.381 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z c0c70fde8a1d2d0d90629f56e34165749e5571bd [4ms]
+2024-08-14 04:18:43.435 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:18:43.486 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 04:18:43.487 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:18:46.141 [info] [Model][close] Repository: /home/hgoo2825/workspace/FreeRTOS-Study
+2024-08-14 04:19:09.406 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:19:29.775 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:19:49.795 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:21:09.534 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:21:13.160 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:21:25.635 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:21:25.685 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [2ms]
+2024-08-14 04:21:25.686 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:21:26.140 [info] > git check-ignore -v -z --stdin [3ms]
+2024-08-14 04:21:27.116 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:21:27.166 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [2ms]
+2024-08-14 04:21:27.168 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:22:10.014 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:22:26.602 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:22:26.624 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 04:22:26.625 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:22:28.006 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:22:28.057 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [4ms]
+2024-08-14 04:22:28.058 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:22:43.292 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-14 04:23:23.567 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:24:07.645 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:24:11.535 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:24:21.570 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:24:33.411 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:24:37.574 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 04:24:41.804 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:26:18.876 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-14 04:26:24.041 [info] > git merge-base refs/heads/main refs/remotes/origin/main [0ms]
+2024-08-14 04:26:24.048 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 04:26:24.049 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:26:37.829 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:26:41.576 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:27:09.296 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:27:09.347 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 04:27:09.348 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-14 04:27:10.981 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:27:11.037 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 04:27:11.039 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [3ms]
+2024-08-14 04:29:00.127 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:29:00.177 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 82099c32a0d5960685c79033edde8f381c2f73ea [3ms]
+2024-08-14 04:29:00.177 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat 82099c32a0d5960685c79033edde8f381c2f73ea.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-14 04:45:47.771 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:45:57.034 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:45:59.305 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:46:07.474 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:46:35.080 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:47:00.599 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 04:47:05.163 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:47:28.753 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:47:31.876 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:47:49.159 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:47:52.504 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:48:09.415 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:48:58.180 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:48:58.180 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-14 04:49:17.300 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:49:26.782 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-14 04:49:46.989 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 04:50:16.566 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-14 04:51:57.066 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:54:02.491 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 04:54:02.491 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-14 04:54:12.184 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:54:15.688 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:54:36.326 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:54:47.209 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:55:01.032 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:56:07.782 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 04:56:08.306 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 04:56:47.690 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 04:56:50.892 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:01:55.207 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:05:32.892 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-14 05:05:44.654 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:05:57.660 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:06:00.365 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 05:06:02.989 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:06:56.775 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:06:59.691 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:07:04.149 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:07:14.999 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 05:08:23.401 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:11:31.670 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:12:56.613 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 05:13:02.131 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:13:07.637 [info] > git rev-parse --show-toplevel [0ms]
+2024-08-14 05:15:02.327 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:15:28.142 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-14 05:33:01.799 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-14 05:33:20.633 [info] > git rev-parse --show-toplevel [2ms]

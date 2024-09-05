@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hgoo2825/workspace/FreeRTOS-Study'
+mkdir -p build
+gcc -I. -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/include -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/hgoo2825/workspace/FreeRTOS-Study/build\" -ggdb3 -MMD -c console.c -o build/console.o
+mkdir -p build
+gcc -I. -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/include -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/hgoo2825/workspace/FreeRTOS-Study/build\" -ggdb3 -MMD -c main.c -o build/main.o
+make: Leaving directory '/home/hgoo2825/workspace/FreeRTOS-Study'
+ 
+make: *** No rule to make target 'build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.o', needed by 'build/study_freertos'.
+make: *** No rule to make target 'build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.o', needed by 'build/study_freertos'.
+make: *** No rule to make target 'build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.o', needed by 'build/study_freertos'.
+

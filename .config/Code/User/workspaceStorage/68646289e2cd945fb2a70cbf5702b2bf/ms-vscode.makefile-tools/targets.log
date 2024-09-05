@@ -1,0 +1,419 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jul  8 13:21:04 2024
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 8)
+FREERTOS_DIR := /home/mmemcc/workspace/FreeRTOS/FreeRTOS
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+SNAP_EUID = 1000
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 27)
+CPPFLAGS := -I. -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/include -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils -DBUILD_DIR=\"/home/hgoo2825/workspace/FreeRTOS-Study/build\"
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/hgoo2825/workspace/FreeRTOS-Study
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/163
+# environment
+GIO_MODULE_DIR = /home/hgoo2825/snap/code/common/.cache/gio-modules
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"c","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 25)
+CFLAGS := -ggdb3
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS_VSCODE_SNAP_ORIG = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+XDG_DATA_DIRS = /home/hgoo2825/snap/code/163/.local/share:/home/hgoo2825/snap/code/163:/snap/code/163/usr/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = disabled:
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/hgoo2825/workspace/FreeRTOS-Study
+# makefile (from 'Makefile', line 15)
+INCLUDE_DIRS := -I. -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/include -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I/home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils
+# environment
+GSETTINGS_SCHEMA_DIR = /home/hgoo2825/snap/code/163/.local/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 38)
+OBJ_FILES = $(SOURCE_FILES:%.c=$(BUILD_DIR)/%.o)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/hgoo2825/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/163
+# environment
+SNAP_VERSION = ea1445cc
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 26)
+LDFLAGS := -ggdb3 -pthread
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/163/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'Makefile', line 40)
+DEP_FILE = $(OBJ_FILES:%.o=%.d)
+# environment
+PWD = /home/hgoo2825/workspace/FreeRTOS-Study
+# environment
+GTK_PATH = /snap/code/163/usr/lib/x86_64-linux-gnu/gtk-3.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 23)
+SOURCE_FILES := console.c main.c  /home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.c /home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c /home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.c
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/hgoo2825
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/hgoo2825/.config/Code/CachedData/ea1445cc7016315d0f5728f8e8b12a45dc0a7286
+# environment
+LOGNAME = hgoo2825
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = SI-fofA1pFv7KHZ2h0_ArgVov3Zdnmp45u5dv0837iBoheHLW_-c
+# environment
+SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
+# environment
+SNAP_USER_COMMON = /home/hgoo2825/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/hgoo2825
+# makefile (from 'Makefile', line 5)
+BUILD_DIR_ABS := /home/hgoo2825/workspace/FreeRTOS-Study/build
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SNAP_USER_DATA = /home/hgoo2825/snap/code/163
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 1)
+CC := gcc
+# makefile (from 'Makefile', line 4)
+BUILD_DIR := ./build
+# default
+MAKE_VERSION := 4.1
+# environment
+USER = hgoo2825
+# environment
+SNAP_REVISION = 163
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/hgoo2825/workspace
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+GTK_EXE_PREFIX = /snap/code/163/usr
+# environment
+VSCODE_IPC_HOOK = /home/hgoo2825/.config/Code/1.91-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+GTK_IM_MODULE_FILE = /home/hgoo2825/snap/code/common/.cache/immodules/immodules.cache
+# environment
+MAIL = /var/mail/hgoo2825
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = SI-fofA1pFv7KHZ2h0_ArgVov3Zdnmp45u5dv0837iBoheHLW_-c
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_NAME = code
+# makefile (from 'Makefile', line 2)
+BIN := study_freertos
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_UID = 1000
+# makefile (from 'Makefile', line 10)
+KERNEL_DIR := /home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+LOCPATH = /snap/code/163/usr/lib/locale
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 7)
+FREERTOS_DIR_REL := /home/mmemcc/workspace/FreeRTOS/FreeRTOS
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 11327
+# variable set hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=26/182=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 78280): 16 files, no impossibilities.
+# /home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source: could not be stat'd.
+
+# 16 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/study_freertos: build/console.o build/main.o build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.o build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.o build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  recipe to execute (from 'Makefile', line 49):
+	-mkdir -p ${@D}
+	$(CC) $^ ${LDFLAGS} -o $@
+
+all: study_freertos
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+.PHONY: all study_freertos clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:18:44.329768231
+#  File has been updated.
+#  Successfully updated.
+
+study_freertos: build/study_freertos
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/console.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	-rm -rf $(BUILD_DIR)
+
+# Not a target:
+console.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-08 13:05:42.5199869
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/port.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+build/main.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/MemMang/heap_3.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+build//home/mmemcc/workspace/FreeRTOS/FreeRTOS/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+build/console.o: console.c Makefile
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'console'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/console.o
+# automatic
+# % := 
+# automatic
+# * := console
+# automatic
+# + := console.c Makefile
+# automatic
+# | := 
+# automatic
+# < := console.c
+# automatic
+# ^ := console.c Makefile
+# automatic
+# ? := console.c Makefile
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/18=6%
+#  recipe to execute (from 'Makefile', line 55):
+	-mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -MMD -c $< -o $@
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=0/54=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 39 / storage = 1028 B / avg = 26 B
+# current buf: size = 8162 B / used = 1028 B / count = 39 / avg = 26 B
+
+# strcache performance: lookups = 66 / hit rate = 40%
+# hash-table stats:
+# Load=39/8192=0%, Rehash=0, Collisions=1/66=2%
+# Finished Make data base on Mon Jul  8 13:21:04 2024
+
+ 

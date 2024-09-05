@@ -1,0 +1,56 @@
+2024-07-08 13:21:04.313 [info] Log level: Info
+2024-07-08 13:21:04.313 [info] Validating found git in: "git"
+2024-07-08 13:21:04.313 [info] Using git "2.17.1" from "git"
+2024-07-08 13:21:04.313 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-08 13:21:04.313 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-08 13:21:04.313 [info] Open repository: /home/hgoo2825/workspace/FreeRTOS-Study
+2024-07-08 13:21:04.320 [info] > git config --get commit.template [3ms]
+2024-07-08 13:21:04.321 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-08 13:21:04.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-07-08 13:21:04.332 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:04.336 [warning] ENOENT: no such file or directory, open '/home/hgoo2825/workspace/FreeRTOS-Study/.git/refs/remotes/origin/master'
+2024-07-08 13:21:04.338 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-07-08 13:21:04.344 [info] > git status -z -uall [2ms]
+2024-07-08 13:21:04.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-07-08 13:21:04.356 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:04.362 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-07-08 13:21:04.367 [info] > git config --get commit.template [11ms]
+2024-07-08 13:21:04.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2024-07-08 13:21:04.377 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:04.396 [info] > git merge-base refs/heads/master refs/remotes/origin/master [16ms]
+2024-07-08 13:21:04.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-07-08 13:21:04.402 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:04.406 [warning] ENOENT: no such file or directory, open '/home/hgoo2825/workspace/FreeRTOS-Study/.git/refs/remotes/origin/master'
+2024-07-08 13:21:04.409 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-07-08 13:21:04.412 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [12ms]
+2024-07-08 13:21:04.436 [info] > git status -z -uall [25ms]
+2024-07-08 13:21:04.437 [info] > git diff --name-status -z --diff-filter=ADMR 1f070194497125b8168c9023970d4028760a896c...refs/remotes/origin/master [20ms]
+2024-07-08 13:21:04.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-07-08 13:21:04.461 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:04.469 [info] > git config --local branch.master.vscode-merge-base [6ms]
+2024-07-08 13:21:04.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-07-08 13:21:04.476 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:04.866 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-08 13:21:04.929 [info] > git show --textconv :Makefile [3ms]
+2024-07-08 13:21:04.931 [info] > git ls-files --stage -- /home/hgoo2825/workspace/FreeRTOS-Study/Makefile [2ms]
+2024-07-08 13:21:04.934 [info] > git cat-file -s 0012e0b989b91413f1e5d3c4fac551af5084a26e [1ms]
+2024-07-08 13:21:18.003 [info] > git config --get commit.template [5ms]
+2024-07-08 13:21:18.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-08 13:21:18.004 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:18.007 [warning] ENOENT: no such file or directory, open '/home/hgoo2825/workspace/FreeRTOS-Study/.git/refs/remotes/origin/master'
+2024-07-08 13:21:18.008 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-07-08 13:21:18.012 [info] > git status -z -uall [2ms]
+2024-07-08 13:21:18.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-08 13:21:18.020 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2024-07-08 13:21:18.025 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-07-08 13:21:18.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-07-08 13:21:18.029 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier

@@ -1,0 +1,102 @@
+[2024-08-14 03:09:52.200] Starting Git Graph ...
+[2024-08-14 03:09:52.329] Using git (version: 2.17.1)
+[2024-08-14 03:09:52.356] > git rev-parse --show-toplevel
+[2024-08-14 03:09:52.357] Showing "Git Graph" Status Bar Item
+[2024-08-14 03:09:52.366] Started Git Graph - Ready to use!
+[2024-08-14 03:09:52.435] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-08-14 03:09:52.442] Searching workspace for new repos ...
+[2024-08-14 03:09:52.442] Completed searching workspace for new repos
+[2024-08-14 04:22:34.414] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.417] Added new repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:22:34.420] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.423] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.426] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.430] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.433] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.436] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.438] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.441] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.443] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.446] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.449] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.452] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.455] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.458] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.460] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.463] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.466] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.469] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.472] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.475] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.478] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.481] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.485] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.487] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.490] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.495] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.498] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.502] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.504] > git rev-parse --show-toplevel
+[2024-08-14 04:22:34.515] Created Git Graph View (active repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS)
+[2024-08-14 04:22:34.851] > git branch -a --no-color
+[2024-08-14 04:22:34.852] > git remote
+[2024-08-14 04:22:34.853] > git reflog --format=... refs/stash --
+[2024-08-14 04:22:34.855] Started watching repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:22:34.904] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-08-14 04:22:34.906] > git show-ref -d --head
+[2024-08-14 04:22:34.944] > git status --untracked-files=all --porcelain
+[2024-08-14 04:22:35.083] > git --no-pager config --list -z --includes
+[2024-08-14 04:22:35.085] > git --no-pager config --list -z --includes --local
+[2024-08-14 04:22:35.086] > git --no-pager config --list -z --includes --global
+[2024-08-14 04:22:43.287] Stopped watching repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:25:25.587] > git branch -a --no-color
+[2024-08-14 04:25:25.588] > git remote
+[2024-08-14 04:25:25.589] > git reflog --format=... refs/stash --
+[2024-08-14 04:25:25.590] Started watching repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:25:25.644] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-08-14 04:25:25.645] > git show-ref -d --head
+[2024-08-14 04:25:25.669] > git status --untracked-files=all --porcelain
+[2024-08-14 04:26:18.869] Stopped watching repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:48:42.017] > git branch -a --no-color
+[2024-08-14 04:48:42.019] > git remote
+[2024-08-14 04:48:42.020] > git reflog --format=... refs/stash --
+[2024-08-14 04:48:42.021] Started watching repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:48:42.075] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-08-14 04:48:42.076] > git show-ref -d --head
+[2024-08-14 04:48:42.102] > git status --untracked-files=all --porcelain
+[2024-08-14 04:48:57.673] Removed repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:48:57.673] Removed repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:48:57.673] Hiding "Git Graph" Status Bar Item
+[2024-08-14 04:49:17.799] > git rev-parse --show-toplevel
+[2024-08-14 04:49:17.800] Added new repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:49:17.801] Showing "Git Graph" Status Bar Item
+[2024-08-14 04:49:17.864] > git branch -a --no-color
+[2024-08-14 04:49:17.865] > git remote
+[2024-08-14 04:49:17.866] > git reflog --format=... refs/stash --
+[2024-08-14 04:49:17.867] Stopped watching repo: /home/hgoo2825/workspace/FreeRTOS-Study/FreeRTOS
+[2024-08-14 04:49:17.867] Started watching repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:49:17.914] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-08-14 04:49:17.916] > git show-ref -d --head
+[2024-08-14 04:49:21.387] > git branch -a --no-color
+[2024-08-14 04:49:21.389] > git remote
+[2024-08-14 04:49:21.390] > git reflog --format=... refs/stash --
+[2024-08-14 04:49:21.444] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-08-14 04:49:21.446] > git show-ref -d --head
+[2024-08-14 04:49:26.778] Stopped watching repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:51:54.390] > git branch -a --no-color
+[2024-08-14 04:51:54.392] > git remote
+[2024-08-14 04:51:54.393] > git reflog --format=... refs/stash --
+[2024-08-14 04:51:54.395] Started watching repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:51:54.445] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-08-14 04:51:54.446] > git show-ref -d --head
+[2024-08-14 04:51:55.884] > git branch -a --no-color
+[2024-08-14 04:51:55.885] > git remote
+[2024-08-14 04:51:55.887] > git reflog --format=... refs/stash --
+[2024-08-14 04:51:55.944] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-08-14 04:51:55.945] > git show-ref -d --head
+[2024-08-14 04:51:57.062] Stopped watching repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:54:01.987] Removed repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:54:01.987] Hiding "Git Graph" Status Bar Item
+[2024-08-14 04:54:12.682] > git rev-parse --show-toplevel
+[2024-08-14 04:54:12.683] Added new repo: /home/hgoo2825/workspace/FreeRTOS-Study
+[2024-08-14 04:54:12.684] Showing "Git Graph" Status Bar Item
